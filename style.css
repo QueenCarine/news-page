@@ -1,5 +1,5 @@
 header{
-    background-image: url('./images/star.jpg');
+    background-color: rgb(36, 34, 34);
     background-size: cover;
     height: 70vh;
 }
@@ -39,39 +39,38 @@ header p{
     font-family: poppins;
 }
 .newsletter{
-    background-color: black;
     width:190vh;
     margin-left: 4vh;
-    height: 35vh;
+    height: 30vh;
     display: flex;
-    margin-top: 10vh;
     font-family: poiret;
 }
 .newsletter h1{
     color: white;
     text-align: center;
-    font-size: 5vh;
+    font-size: 3vh;
     margin-left: 20vh;
     font-family: poiret;
 }
 .newsletter p{
     color: white;
-    font-size: 2vh;
+    font-size: 1vh;
     margin-left: 30vh;
     font-family: 'poppins';
 }
 .newsletter button{
-    margin-left: 1vh;
-    width: 25vh;
-    padding: 2vh;
+    margin-left: 50vh;
+    margin-top: -400vh;
+    width: 20vh;
+    padding: 1vh;
     cursor: pointer;
     border-radius: 1vh;
     font-family: poppins;
 }
 .newsletter  input{
     margin-left: 20vh;
-    width:25vh;
-    padding: 2vh;
+    width:20vh;
+    padding: 1vh;
     cursor: black;
      border-radius: 1vh;
      font-family: poppins;
@@ -253,11 +252,11 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.0rem;
     a {
         color: white;
     }
     p {
-        font-size: medium;
+        font-size: small;
     }
 }
